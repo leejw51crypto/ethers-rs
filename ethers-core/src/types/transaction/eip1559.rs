@@ -34,6 +34,7 @@ pub struct Eip1559TransactionRequest {
 
     /// Supplied gas (None for sensible default)
     #[serde(skip_serializing_if = "Option::is_none")]
+    #[serde(default, rename = "gasLimit")]
     pub gas: Option<U256>,
 
     /// Transferred value (None for no transfer)
