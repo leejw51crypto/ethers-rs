@@ -66,7 +66,7 @@ ipc = ["ethers-providers/ipc"]
 dev-rpc = ["ethers-providers/dev-rpc"]
 
 # ethers-signers
-aws = ["ethers-signers/aws"]
+#aws = ["ethers-signers/aws"]
 ledger = ["ethers-signers/ledger"]
 trezor = ["ethers-signers/trezor"]
 yubi = ["ethers-signers/yubi"]

@@ -82,5 +82,5 @@ optimism = ["ethers-core/optimism"]
 
 ledger = ["coins-ledger", "futures", "semver"]
 trezor = ["trezor-client", "futures", "semver", "home", "protobuf"]
-aws = ["rusoto_core/rustls", "rusoto_kms/rustls", "spki"]
+#aws = ["rusoto_core/rustls", "rusoto_kms/rustls", "spki"]
 yubi = ["yubihsm"]
